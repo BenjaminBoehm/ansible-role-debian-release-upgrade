@@ -3,3 +3,4 @@
 
 # Which major version to upgrade to
 required_release_version: 11
+additional_source_lists: { }

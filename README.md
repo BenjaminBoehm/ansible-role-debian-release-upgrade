@@ -64,7 +64,14 @@ provded:
         required_release_version: 10
 ```
 
+# Testing
+
+```bash
+MOLECULE_DISTRO=debian10 molecule test
+```
+
 Author Information
 ------------------
 
 Dick Visser
+Benjamin Böhm

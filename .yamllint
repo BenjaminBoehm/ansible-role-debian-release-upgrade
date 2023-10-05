@@ -1,0 +1,12 @@
+extends: default
+ignore: |
+
+rules:
+  line-length: disable # don't bother me with this rule
+  document-start: disable
+  comments: disable
+  comments-indentation: disable
+  braces: { min-spaces-inside: 0, max-spaces-inside: 1 }
+  brackets: { min-spaces-inside: 0, max-spaces-inside: 1 }
+  colons: { max-spaces-before: -1, max-spaces-after: 1 }
+  truthy: disable
